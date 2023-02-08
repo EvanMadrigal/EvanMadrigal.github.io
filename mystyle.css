@@ -13,3 +13,28 @@ body
 {
 
 }
+
+img
+{
+    height: 55px;
+    width: 55px; 
+}
+
+a:hover
+{
+text-decoration: solid;
+}
+
+a
+{
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+#navDiv
+{
+    position: absolute;
+    right: 30px;
+    overflow: hidden;
+}

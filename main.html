@@ -5,20 +5,19 @@
     </head>
     <body>
         <header>
-                <img src = "images/EM.png" alt ="my logo" height="55px" width="55px" />
                 <nav> 
-                    <a href="#">Me.</a>
-                    <p> / </p>
-                    <a href="#">Experience.</a>
-                    <p> / </p>
-                    <a href="#">Projects.</a>
-
+                    <img src = "images/EM.png" alt ="my logo"/>
+                    <div id = "navDiv"> 
+                        <a href="me">Me.</a>
+                        <a href="experience">Experience.</a>
+                        <a href="projects">Projects.</a>
+                    </div>
                 </nav>     
         </header>
         <div>
             <h1>Evan Madrigal</h1>
             <div>
-                <h2> A little about me.</h2>
+                <h2 id = "me"> A little about me.</h2>
                 <p>I am a self-motivated student studying Computer Science at California State University, Fresno. With experience in several IT departments I have
                     worked with my team, collaborated with other departmens, and managed small groups to execute important jobs that needed to be done. I am able to use
                     this experience in other work settings in the software development world and am eager to learn more one problem at a time.
@@ -26,7 +25,7 @@
             </div>
 
             <div>
-                <h2> Recent Work. </h2>
+                <h2 id = "experience"> Recent Work. </h2>
                 <ul>
                     <li>
                         <h3>Software Engineer at Bank of America</h3>
@@ -47,7 +46,7 @@
             </div>
 
             <div>
-                <h2> Projects and Course work</h2>
+                <h2 id = "projects"> Projects and Course work</h2>
                 <h3>CSci 115: Data Structures in System Design.</h3>
                 <p><strong>Shortest Path Game:</strong> Developed a project in C++ that created characters with different attributes that need to traverse a dynamic map.
                  In this project I implemented custom characters, dynamic terrain generation, and shortest path algorithm for characters based
