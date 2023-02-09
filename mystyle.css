@@ -2,13 +2,20 @@ h1
 {
     
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 100;
+    
+    display: inline-block;
+    vertical-align: middle;
+
 }
 header
 {
-padding-left: 30px;
+    padding-left: 30px;
+
+    justify-content: space-between;
 }
+
 body
 {
 
@@ -16,8 +23,11 @@ body
 
 img
 {
-    height: 55px;
-    width: 55px; 
+    height: 40px;
+    width: 40px;
+    
+    display: inline-block;
+    vertical-align: middle;
 }
 
 a:hover
@@ -32,9 +42,13 @@ a
     font-size: 17px;
     color: black;
 }
-#navDiv
+
+nav
 {
     position: absolute;
     right: 30px;
     overflow: hidden;
+
+    display: inline-block;
+    vertical-align: middle;
 }
