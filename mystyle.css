@@ -27,9 +27,10 @@ header
     display: flex;
 }
 
-body
+.container
 {
-
+    width: 60%;
+    margin: 0 auto;
 }
 
 img
@@ -45,7 +46,7 @@ a
 {
     margin-left: 15px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
     color: black;
 }
 
