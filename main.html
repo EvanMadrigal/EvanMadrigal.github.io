@@ -5,6 +5,7 @@
     </head>
 
     <body>
+        <!-- Header Portion w/ navigation-->
         <header>
             <img src = "images/EM.png" alt ="my logo"/>
             <!--    <h1>Evan Madrigal</h1>  -->
@@ -14,24 +15,25 @@
                         <a href="projects">Projects.</a>
                 </nav>     
         </header>
-
+        <!-- Body of the page containing my prev/current job experience and projects-->
         <div class = "container">
             
-            <div>
-                <h2 id = "me"> A little about me.</h2>
+            <section id = "me">
+                <h2 > A little about me.</h2>
                 <p>I am a self-motivated student studying Computer Science at California State University, Fresno. With experience in several IT departments I have
                     worked with my team, collaborated with other departmens, and managed small groups to execute important jobs that needed to be done. I am able to use
                     this experience in other work settings in the software development world and am eager to learn more one problem at a time.
                  </p>
-            </div>
+            </section>
 
-            <div>
-                <h2 id = "experience"> Recent Work. </h2>
+            <section id = "experience">
+                <h2> Recent Work. </h2>
                 <ul>
                     <li>
                         <h3>Software Engineer at Bank of America</h3>
                         <p>July 2022 - Current</p>
-                        <p> TBD </p>
+                        <p> Currently working on the banks Global Human Resource Technology team. Providing development for the various lines of businesses that bank has mostly focusing on 
+                            Human Capital Managment.  </p>
                     </li>
                     <li>
                         <h3>DISCOVERe Tech Leads</h3>
@@ -44,10 +46,10 @@
                         <p>Worked in an IT department as help desk, providing technical support for the company's employees. Also aided in device set up/repair, network room service, and software testing.</p>
                     </li>
                 </ul>
-            </div>
+            </section>
 
-            <div>
-                <h2 id = "projects"> Projects and Course work</h2>
+            <section id = "projects">
+                <h2> Projects and Course work</h2>
                 <h3>CSci 115: Data Structures in System Design.</h3>
                 <p><strong>Shortest Path Game:</strong> Developed a project in C++ that created characters with different attributes that need to traverse a dynamic map.
                  In this project I implemented custom characters, dynamic terrain generation, and shortest path algorithm for characters based
@@ -60,8 +62,31 @@
                 <p><strong>Rumii Web App:</strong> Developed a web application called Rumii that split bills within a household. I contributed to all the front-end work within the project.</p>
                 <h3>CSci 152: Software Engineering.</h3>
                 <p><strong>Mepo Web App:</strong> Social media web app that allows user to share memories and blogs and organize the posts in related albums for followers can see.</p>                   
-            </div>
+            </section>
 
         </div>
+        <!-- Footer section containing last notes and my ways of contacts -->
+        <footer>
+            <section class = "footer-info">
+                <h3 style="font-size: 12px;">Last Notes.</h3>
+                <p style="font-size: 10px;"> Thank you for taking time and looking at my website portfolio! For any question or inquires make sure to email or contact me on LinkedIn!</p>
+            </section>
+
+            <section class = "footer-info">
+                <h3  style="font-size: 12px;">Contact Me.</h3>
+                <dl>
+                    <dt>Address</dt>
+                    <dd>6544 Narcisco Way Hughson, CA 95326 USA</dd>
+                    <dt>Email</dt>
+                    <dd><a style="font-size: 10px;" href="#">emadrigal00@gmail.com</a></dd>
+                </dl>
+                <!--
+                    <ul class="icons">
+                    <li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+                    <li><a href="#" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
+                    </ul>
+                 -->   
+            </section>
+        </footer>
     </body>
 </html>

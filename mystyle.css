@@ -29,7 +29,7 @@ header
 
 .container
 {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -42,6 +42,23 @@ img
     margin-right: 10px;
 }
 
+body {
+    background: linear-gradient(to right, #2E5221, #A2CD8F);
+    background-size: 200% 100%;
+    /*animation: gradient 10s ease infinite;*/
+  }
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 a
 {
     margin-left: 15px;
@@ -50,9 +67,24 @@ a
     color: black;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+   /* background-color: #eee; */ 
+    padding: 20px;
+  }
+
 nav
 {
     float: right;
     margin-left: auto;
     margin-top: auto;
+}
+
+.footer-info {
+    width: 45%;
+}
+
+dt, dd{
+    font-size: 10px;
 }
