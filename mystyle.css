@@ -1,7 +1,7 @@
 h1
 {
     
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times;
     font-size: 30px;
     font-weight: 100;
     
@@ -43,8 +43,11 @@ img
 }
 
 body {
-    background: linear-gradient(to right, #2E5221, #A2CD8F);
+    background: linear-gradient(to right, #4A6D39, #A2CD8F);
     background-size: 200% 100%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
     /*animation: gradient 10s ease infinite;*/
   }
 
@@ -64,14 +67,17 @@ a
     margin-left: 15px;
     text-decoration: none;
     font-size: 15px;
-    color: black;
+    color: white;
 }
 
 footer {
     display: flex;
     justify-content: space-between;
-   /* background-color: #eee; */ 
+    background-color: #2E5221;
     padding: 20px;
+    border-radius: 0 10px 0 0;
+    float: left;
+
   }
 
 nav
@@ -81,9 +87,23 @@ nav
     margin-top: auto;
 }
 
-.footer-info {
-    width: 45%;
+.footer-info{
+    width: 35%;
 }
+
+.image-container {
+  background-color: #A2CD8F;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 
 dt, dd{
     font-size: 10px;
