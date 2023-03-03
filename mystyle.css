@@ -25,6 +25,7 @@ header
     padding-left: 25px;
     padding-right: 25px; 
     display: flex;
+    height: 100px;
 }
 
 .container
@@ -43,7 +44,7 @@ img
 }
 
 body {
-    background: linear-gradient(to right, #4A6D39, #A2CD8F);
+    background: linear-gradient(to right, black, #4A6D39);
     background-size: 200% 100%;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
