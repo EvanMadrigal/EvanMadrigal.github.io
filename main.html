@@ -3,65 +3,121 @@
     <head>
         <link rel="stylesheet" href="mystyle.css">
     </head>
-    <body>
-        <header>
-                <img src = "images/EM.png" alt ="my logo" height="55px" width="55px" />
-                <nav> 
-                    <a href="#">Me.</a>
-                    <p> / </p>
-                    <a href="#">Experience.</a>
-                    <p> / </p>
-                    <a href="#">Projects.</a>
 
+    <body>
+        <!-- Header Portion w/ navigation-->
+        <header>
+            <img src = "images/EM.png" alt ="my logo"/>
+            <!--    <h1>Evan Madrigal</h1>  -->
+                <nav> 
+                        <a href="me">Me.</a>
+                        <a href="experience">Experience.</a>
+                        <a href="projects">Projects.</a>
                 </nav>     
         </header>
-        <div>
-            <h1>Evan Madrigal</h1>
-            <div>
-                <h2> A little about me.</h2>
-                <p>I am a self-motivated student studying Computer Science at California State University, Fresno. With experience in several IT departments I have
+        <!-- Body of the page containing my prev/current job experience and projects-->
+        <div class = "container">
+            
+            <section id = "me">
+                <h2 > A little about me.</h2>
+                <p>I am a self-motivated Software Engineer who's studied Computer Science at California State University, Fresno. With experience in several technology related departments I have
                     worked with my team, collaborated with other departmens, and managed small groups to execute important jobs that needed to be done. I am able to use
                     this experience in other work settings in the software development world and am eager to learn more one problem at a time.
                  </p>
-            </div>
+                 <div class="image-container">
+                    <img src="" alt="Images pertaining to me">
+                </div>
+            </section>
 
-            <div>
+            <section id = "experience">
                 <h2> Recent Work. </h2>
-                <ul>
-                    <li>
-                        <h3>Software Engineer at Bank of America</h3>
-                        <p>July 2022 - Current</p>
-                        <p> TBD </p>
-                    </li>
-                    <li>
-                        <h3>DISCOVERe Tech Leads</h3>
-                        <p>January 2021 - May 2022</p>
-                        <p>Provided technology support for student and faculty for Fresno State. Also organized and assisted in device activation and sorting for over 5000 devices.</p>
-                    </li>
-                    <li>
-                        <h3>IT Help Desk Intern</h3>
-                        <p>Summer 2018 - 2020</p>
-                        <p>Worked in an IT department as help desk, providing technical support for the company's employees. Also aided in device set up/repair, network room service, and software testing.</p>
-                    </li>
-                </ul>
-            </div>
+                    <h3>Software Engineer at Bank of America</h3>
+                    <p>July 2022 - Current</p>
+                    <p> Currently working on the banks Global Human Resource Technology team. Providing development for the various lines of businesses that bank has mostly focusing on 
+                            Human Capital Managment.  </p>
 
-            <div>
+                    <div class="image-container">
+                        <img src="" alt="Images pertaining to me working at Bank of America">
+                    </div>
+
+                    <h3>DISCOVERe Tech Leads</h3>
+                    <p>January 2021 - May 2022</p>
+                    <p>Provided technology support for student and faculty for Fresno State. Also organized and assisted in device activation and sorting for over 5000 devices.</p>
+                    <div class="image-container">
+                        <img src="" alt="Images pertaining to my work at DISCOVERe">
+                    </div>
+
+                    <h3>IT Help Desk Intern</h3>
+                    <p>Summer 2018 - 2020</p>
+                    <p>Worked in an IT department as help desk, providing technical support for the company's employees. Also aided in device set up/repair, network room service, and software testing.</p>
+                    <div class="image-container">
+                        <img src="" alt="Images pertaining to my work at Growers Direct">
+                    </div>
+                </ul>
+            </section>
+
+            <section id = "projects">
                 <h2> Projects and Course work</h2>
-                <h3>CSci 115: Data Structures in System Design.</h3>
-                <p><strong>Shortest Path Game:</strong> Developed a project in C++ that created characters with different attributes that need to traverse a dynamic map.
-                 In this project I implemented custom characters, dynamic terrain generation, and shortest path algorithm for characters based
-                  the terrain they were traversing.</p>
-                 <h3>CSci 144: Operating Systems</h3>
-                <p> <strong>One-Way Tunnel Simulator:</strong> Developed a single lane tunnel using C++ mult-threading to simulate cars passing one each side based on if the light at the end of
-                the tunnel is red or green. The project is complently dynamic based on two inputs, the total amount of cars passing on both sides
-              and the max number of cars that could pass through the tunnel at their given turn.</p>
-                <h3>CSci 150: Software Engineering.</h3>
-                <p><strong>Rumii Web App:</strong> Developed a web application called Rumii that split bills within a household. I contributed to all the front-end work within the project.</p>
-                <h3>CSci 152: Software Engineering.</h3>
-                <p><strong>Mepo Web App:</strong> Social media web app that allows user to share memories and blogs and organize the posts in related albums for followers can see.</p>                   
-            </div>
+                <section> 
+                    <h3>CSci 115: Data Structures in System Design.</h3>
+                    <p><strong>Shortest Path Game:</strong> Developed a project in C++ that created characters with different attributes that need to traverse a dynamic map.
+                    In this project I implemented custom characters, dynamic terrain generation, and shortest path algorithm for characters based
+                    the terrain they were traversing.</p>
+                    <div class="image-container">
+                        <img src="" alt="Shortest Path Images">
+                    </div>
+                </section>
+
+                <section>
+                    <h3>CSci 144: Operating Systems</h3>
+                    <p> <strong>One-Way Tunnel Simulator:</strong> Developed a single lane tunnel using C++ mult-threading to simulate cars passing one each side based on if the light at the end of
+                    the tunnel is red or green. The project is complently dynamic based on two inputs, the total amount of cars passing on both sides
+                    and the max number of cars that could pass through the tunnel at their given turn.</p>
+                    <div class="image-container">
+                        <img src="" alt="One Way Simulator Images">
+                    </div>
+                </section>
+
+                <section>
+                    <h3>CSci 150: Software Engineering I.</h3>
+                    <p><strong>Rumii Web App:</strong> Developed a web application called Rumii that split bills within a household. I contributed to all the front-end work within the project.</p>
+                    <div class="image-container">
+                        <img src="" alt="Rumii Images">
+                    </div>
+                </section>
+                
+                <section> 
+                    <h3>CSci 152: Software Engineering II.</h3>
+                    <p><strong>Mepo Web App:</strong> Social media web app that allows user to share memories and blogs and organize the posts in related albums for followers can see.</p>
+                    <div class="image-container">
+                        <img src="" alt="Mepo Images">  
+                    </div>
+                </section>
+            </section>
 
         </div>
+        <!-- Footer section containing last notes and my ways of contacts -->
+        <footer>
+            <section class = "footer-info">
+                <h3 style="font-size: 13px;">Last Notes.</h3>
+                <p style="font-size: 13px;"> Thank you for taking time and looking at my website portfolio! For any question or inquires make sure to email or contact me on LinkedIn!</p>
+            </section>
+
+            <section class = "footer-info">
+                <h3  style="font-size: 12px;">Contact Me.</h3>
+                <dl>
+                    <p style="font-size: 13px;"><strong>Address</strong></p>
+                    <p style="font-size: 13px;">Dallas, TX 75219 USA</p>
+                    <p style="font-size: 13px;"><strong>Email</strong></p>
+                    <p style="font-size: 13px;"><a style="font-size: 10px;" href="#">emadrigal00@gmail.com</a></p>
+                </dl>
+                <!--
+                    <ul class="icons">
+                    <li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+                    <li><a href="#" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
+                    </ul>
+                 -->   
+            </section>
+        </footer>
     </body>
 </html>

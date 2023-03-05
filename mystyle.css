@@ -1,15 +1,111 @@
 h1
 {
     
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times;
+    font-size: 30px;
     font-weight: 100;
+    
+    display: inline-block;
+    margin: 0;
+    text-align: center;
 }
+
+h2
+{
+    font-size: 20px;
+}
+
+h3
+{
+    font-size: 15px;
+}
+
 header
 {
-padding-left: 30px;
+    padding-left: 25px;
+    padding-right: 25px; 
+    display: flex;
+    height: 100px;
 }
-body
-{
 
+.container
+{
+    width: 70%;
+    margin: 0 auto;
+}
+
+img
+{
+    height: 40px;
+    width: 40px;
+    
+    float: left;
+    margin-right: 10px;
+}
+
+body {
+    background: linear-gradient(to right, black, #4A6D39);
+    background-size: 200% 100%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    /*animation: gradient 10s ease infinite;*/
+  }
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+a
+{
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2E5221;
+    padding: 20px;
+    border-radius: 0 10px 0 0;
+    float: left;
+
+  }
+
+nav
+{
+    float: right;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.footer-info{
+    width: 35%;
+}
+
+.image-container {
+  background-color: #A2CD8F;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+dt, dd{
+    font-size: 10px;
 }
