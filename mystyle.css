@@ -1,8 +1,63 @@
+/* Header/Background Info Code */
+header
+{
+    padding-left: 25px;
+    padding-right: 25px; 
+    display: flex;
+    height: 75px;
+}
+
+.name-Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.first-name {
+  margin: 0;
+}
+
+.last-name {
+  margin: 0;
+}
+
+a
+{
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+nav
+{
+    float: right;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2E5221;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 0 10px 0 0;
+  float: left;
+
+}
+
+.footer-info{
+  width: 35%;
+}
+
+/* Heading Titles Code */
 h1
 {
     
     font-family: Georgia, 'Times New Roman', Times;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 100;
     
     display: inline-block;
@@ -12,28 +67,43 @@ h1
 
 h2
 {
-    font-size: 20px;
+    font-size: 40px;
 }
 
 h3
 {
-    font-size: 15px;
+    font-size: 25px;
 }
 
-header
-{
-    padding-left: 25px;
-    padding-right: 25px; 
-    display: flex;
-    height: 100px;
-}
-
+/*Container and Section Code */
 .container
 {
     width: 70%;
     margin: 0 auto;
 }
 
+.sec-Container
+{
+  display: flex;
+  align-items: stretch;
+}
+
+.left-Sec {
+  float: left;
+  width: 50%;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.right-Sec {
+  float: right;
+  width: 50%;
+  flex: 1;
+  margin-left: 10px;
+}
+
+
+/* Image Code*/
 img
 {
     height: 40px;
@@ -43,6 +113,20 @@ img
     margin-right: 10px;
 }
 
+.image-container {
+  background-color: #A2CD8F;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/*background Code */
 body {
     background: linear-gradient(to right, black, #4A6D39);
     background-size: 200% 100%;
@@ -63,49 +147,3 @@ body {
       background-position: 0% 50%;
     }
   }
-a
-{
-    margin-left: 15px;
-    text-decoration: none;
-    font-size: 15px;
-    color: white;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: #2E5221;
-    padding: 20px;
-    border-radius: 0 10px 0 0;
-    float: left;
-
-  }
-
-nav
-{
-    float: right;
-    margin-left: auto;
-    margin-top: auto;
-}
-
-.footer-info{
-    width: 35%;
-}
-
-.image-container {
-  background-color: #A2CD8F;
-  padding: 10px;
-  display: inline-block;
-  border-radius: 10px;
-}
-
-.image-container img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-
-dt, dd{
-    font-size: 10px;
-}

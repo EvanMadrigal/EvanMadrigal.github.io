@@ -7,7 +7,10 @@
     <body>
         <!-- Header Portion w/ navigation-->
         <header>
-            <img src = "images/EM.png" alt ="my logo"/>
+            <div class="name-Header">
+                <h1 class="first-name">Evan</h1>
+                <h1 class="last-name">Madrigal</h1>
+            </div>
             <!--    <h1>Evan Madrigal</h1>  -->
                 <nav> 
                         <a href="me">Me.</a>
@@ -24,9 +27,11 @@
                     worked with my team, collaborated with other departmens, and managed small groups to execute important jobs that needed to be done. I am able to use
                     this experience in other work settings in the software development world and am eager to learn more one problem at a time.
                  </p>
+                 <!--
                  <div class="image-container">
                     <img src="" alt="Images pertaining to me">
                 </div>
+                -->
             </section>
 
             <section id = "experience">
@@ -40,14 +45,14 @@
                         <img src="" alt="Images pertaining to me working at Bank of America">
                     </div>
 
-                    <h3>DISCOVERe Tech Leads</h3>
+                    <h3>DISCOVERe Tech Lead.</h3>
                     <p>January 2021 - May 2022</p>
                     <p>Provided technology support for student and faculty for Fresno State. Also organized and assisted in device activation and sorting for over 5000 devices.</p>
                     <div class="image-container">
                         <img src="" alt="Images pertaining to my work at DISCOVERe">
                     </div>
 
-                    <h3>IT Help Desk Intern</h3>
+                    <h3>IT Help Desk Intern.</h3>
                     <p>Summer 2018 - 2020</p>
                     <p>Worked in an IT department as help desk, providing technical support for the company's employees. Also aided in device set up/repair, network room service, and software testing.</p>
                     <div class="image-container">
@@ -58,41 +63,64 @@
 
             <section id = "projects">
                 <h2> Projects and Course work</h2>
-                <section> 
-                    <h3>CSci 115: Data Structures in System Design.</h3>
-                    <p><strong>Shortest Path Game:</strong> Developed a project in C++ that created characters with different attributes that need to traverse a dynamic map.
-                    In this project I implemented custom characters, dynamic terrain generation, and shortest path algorithm for characters based
-                    the terrain they were traversing.</p>
-                    <div class="image-container">
-                        <img src="" alt="Shortest Path Images">
-                    </div>
-                </section>
 
-                <section>
-                    <h3>CSci 144: Operating Systems</h3>
-                    <p> <strong>One-Way Tunnel Simulator:</strong> Developed a single lane tunnel using C++ mult-threading to simulate cars passing one each side based on if the light at the end of
-                    the tunnel is red or green. The project is complently dynamic based on two inputs, the total amount of cars passing on both sides
-                    and the max number of cars that could pass through the tunnel at their given turn.</p>
-                    <div class="image-container">
-                        <img src="" alt="One Way Simulator Images">
-                    </div>
-                </section>
+                <div class = "sec-Container"> 
+                    <section class = "left-Sec"> 
+                        <h3>CSci 115: Data Structures in System Design.</h3>
+                        <p><strong>Shortest Path Game:</strong> Developed a project in C++ that created characters with different attributes that need to traverse a dynamic map.
+                        In this project I implemented custom characters, dynamic terrain generation, and shortest path algorithm for characters based
+                        the terrain they were traversing.</p>
+                        <div class="image-container">
+                            <img src="images/115ShortestPath.png" alt="Shortest Path Images">
+                        </div>
+                    </section>
 
-                <section>
-                    <h3>CSci 150: Software Engineering I.</h3>
-                    <p><strong>Rumii Web App:</strong> Developed a web application called Rumii that split bills within a household. I contributed to all the front-end work within the project.</p>
-                    <div class="image-container">
-                        <img src="" alt="Rumii Images">
-                    </div>
-                </section>
-                
-                <section> 
-                    <h3>CSci 152: Software Engineering II.</h3>
-                    <p><strong>Mepo Web App:</strong> Social media web app that allows user to share memories and blogs and organize the posts in related albums for followers can see.</p>
-                    <div class="image-container">
-                        <img src="" alt="Mepo Images">  
-                    </div>
-                </section>
+                    <section class = right-Sec>
+                        <h3>CSci 144: Operating Systems.</h3>
+                        <p> <strong>One-Way Tunnel Simulator:</strong> Developed a single lane tunnel using C++ mult-threading to simulate cars passing one each side based on if the light at the end of
+                        the tunnel is red or green. The project is complently dynamic based on two inputs, the total amount of cars passing on both sides
+                        and the max number of cars that could pass through the tunnel at their given turn.</p>
+                        <div class="image-container">
+                            <img src="images/144TrafficThread.png" alt="One Way Simulator Images">
+                        </div>
+                    </section>
+                </div>
+
+
+                <div class = "sec-Container">
+                    <section class = "left-Sec">
+                        <h3>CSci 150: Software Engineering I.</h3>
+                        <p><strong>Rumii Web App:</strong> Developed a web application called Rumii that split bills within a household. I contributed to all the front-end work within the project.</p>
+                        <div class="image-container">
+                            <img src="images/150RumiiWeb.png" alt="Rumii Images">
+                        </div>
+                    </section>
+                    
+                    <section class = "right-Sec"> 
+                        <h3>CSci 152: Software Engineering II.</h3>
+                        <p><strong>Mepo Web App:</strong> Social media web app that allows user to share memories and blogs and organize the posts in related albums for followers can see.</p>
+                        <div class="image-container">
+                            <img src="images/152MepoWeb.png" alt="Mepo Images">  
+                        </div>
+                    </section>
+                </div>
+
+
+                <div class = "sec-Container">
+                    <section class = "left-Sec">
+                        <h3>CSci 166: Principles of Artificial Intelligence.</h3>
+                        <p><strong>Snake Game with :</strong> Developed a reinforcement learning project based off of the Snake game which trains the snake to eat the food present in the environment. I worked on the reinforcement algorithm's possible actions as well as the states the agent could be in then using these points to make the next move. </p>
+                        <div class="image-container">
+                            <img src="images/166SnakeAI.png" alt="Rumii Images">
+                        </div>
+                    </section>
+
+                    <section class = "right-Sec"> 
+                        <h3></h3>
+                        <p><strong></strong> </p>
+                        
+                    </section>
+                </div>
             </section>
 
         </div>
