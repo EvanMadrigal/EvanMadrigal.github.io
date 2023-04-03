@@ -5,9 +5,9 @@ header
     padding-right: 25px; 
     display: flex;
     height: 75px;
-    background-color: #F1B24A;
     padding-bottom: 10px;
 }
+
 
 .name-Header {
   display: flex;
@@ -39,19 +39,44 @@ nav
     margin-top: auto;
 }
 
+nav a:hover {
+  text-decoration: underline;
+  color: #F1B24A;
+}
+
+.nav-header
+{
+background-color: #164A41;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
-  background-color: #F1B24A;
+  background-color: #164A41;
   padding: 20px;
   margin-top: 20px;
   border-radius: 0 10px 0 0;
-  float: left;
-
+  width: 75%;
 }
 
 .footer-info{
-  width: 35%;
+  width: 40%;
+}
+
+.footer-social
+{
+  background-color: #9DC88D;
+}
+
+.fa-linkedin
+{
+font-size: 24px;
+}
+.fa-github
+{
+  font-size: 24px;
+  margin-left: 10px;
+
 }
 
 /* Heading Titles Code */
@@ -77,6 +102,22 @@ h3
     font-size: 25px;
 }
 
+/* Button Code*/
+button{
+  margin-bottom: 10px;
+  background-color: #ED9E1B;
+  color: white;
+  border: 2px solid #F1B24A;
+  transition: background-color 0.5s;
+  border-radius: 10px;
+  width: 150px;
+  height: 30px;
+}
+
+button:hover
+{
+  background-color: #F1B24A;
+}
 /*Container and Section Code */
 .container
 {
@@ -135,6 +176,7 @@ body {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
+  
     /*animation: gradient 10s ease infinite;*/
   }
 
@@ -149,3 +191,4 @@ body {
       background-position: 0% 50%;
     }
   }
+

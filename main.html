@@ -2,21 +2,22 @@
 <html>
     <head>
         <link rel="stylesheet" href="mystyle.css">
-    </head>
+        <script src="https://kit.fontawesome.com/5361e85962.js" crossorigin="anonymous"></script>    </head>
 
     <body>
         <!-- Header Portion w/ navigation-->
         <header>
             <div class="name-Header">
                 <h1 class="first-name">Evan</h1>
-                <h1 class="last-name">Madrigal</h1>
+                <h1 class="last-name">Madrigal.</h1>
             </div>
-            <!--    <h1>Evan Madrigal</h1>  -->
                 <nav> 
-                        <a href="me">Me.</a>
-                        <a href="experience">Experience.</a>
-                        <a href="projects">Projects.</a>
-                </nav>     
+                    <div class = "nav-Header"> 
+                        <a href="#me">Me.</a>
+                        <a href="#experience">Experience.</a>
+                        <a href="#projects">Projects.</a>
+                    </div>
+                </nav> 
         </header>
         <!-- Body of the page containing my prev/current job experience and projects-->
         <div class = "container">
@@ -36,6 +37,8 @@
 
             <section id = "experience">
                 <h2> Recent Work. </h2>
+                <button> <a style="font-size: 13px;" href="yourfile.pdf" download> View My Resume.</a> </button>
+
                     <h3>Software Engineer at Bank of America</h3>
                     <p><strong> July 2022 - Current</strong></p>
                     <p> Currently working on the banks Global Human Resource Technology team. Providing development for the various lines of businesses that bank has mostly focusing on 
@@ -53,7 +56,7 @@
 
             <section id = "projects">
                 <h2> Projects and Course work</h2>
-
+                <button> <a href="https://github.com/EvanMadrigal" style="font-size: 13px;">View My Projects.</a> </button>
                 <div class = "sec-Container"> 
                     <section class = "left-Sec"> 
                         <h3>CSci 115: Data Structures in System Design.</h3>
@@ -99,7 +102,7 @@
                 <div class = "sec-Container">
                     <section class = "left-Sec">
                         <h3>CSci 166: Principles of Artificial Intelligence.</h3>
-                        <p><strong>Snake Game with :</strong> Developed a reinforcement learning project based off of the Snake game which trains the snake to eat the food present in the environment. I worked on the reinforcement algorithm's possible actions as well as the states the agent could be in then using these points to make the next move. </p>
+                        <p><strong>Snake Game with AI:</strong> Developed a reinforcement learning project based off of the Snake game which trains the snake to eat the food present in the environment. I worked on the reinforcement algorithm's possible actions as well as the states the agent could be in then using these points to make the next move. </p>
                         <div class="image-container">
                             <img src="images/166SnakeAI.png" alt="Rumii Images">
                         </div>
@@ -117,24 +120,21 @@
         <!-- Footer section containing last notes and my ways of contacts -->
         <footer>
             <section class = "footer-info">
-                <h3 style="font-size: 13px;">Last Notes.</h3>
-                <p style="font-size: 13px;"> Thank you for taking time and looking at my website portfolio! For any question or inquires make sure to email or contact me on LinkedIn!</p>
+                <h3 style="font-size: 15px;">Last Notes.</h3>
+                <p style="font-size: 13px; line-height: 1.5em;"> Thank you for taking time and looking at my website portfolio! For any question or inquires make sure to email or contact me on LinkedIn!</p>
+               <a href="https://www.linkedin.com/in/evanmadrigal/"><i class="fa-brands fa-linkedin"></i> </a> 
+                <a href="https://github.com/EvanMadrigal"><i class="fa-brands fa-github"></i></a>
             </section>
 
             <section class = "footer-info">
-                <h3  style="font-size: 12px;">Contact Me.</h3>
+                <h3  style="font-size: 15px;">Contact Me.</h3>
                 <dl>
-                    <p style="font-size: 13px;"><strong>Address</strong></p>
-                    <p style="font-size: 13px;">Dallas, TX 75219 USA</p>
-                    <p style="font-size: 13px;"><strong>Email</strong></p>
-                    <p style="font-size: 13px;"><a style="font-size: 10px;" href="#">emadrigal00@gmail.com</a></p>
+                    <p style="font-size: 14px;"><strong>Address.</strong></p>
+                    <p style="font-size: 13px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dallas, TX 75219 USA</p>
+                    <p style="font-size: 14px;"><strong>Email.</strong></p>
+                    <p><a style="font-size: 13px;" href="#">emadrigal00@gmail.com</a></p>
                 </dl>
-                <!--
-                    <ul class="icons">
-                    <li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-                    <li><a href="#" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
-                    </ul>
-                 -->   
+              
             </section>
         </footer>
     </body>
